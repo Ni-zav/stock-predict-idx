@@ -1,15 +1,15 @@
 # IDX Stock Price Predictor
 
-A machine learning-based stock price prediction system for the Indonesia Stock Exchange (IDX), using streamlit interfacae.
+A machine learning-based stock price prediction system for the Indonesia Stock Exchange (IDX), using streamlit interface.
 
 ## Features
 
-- Historical data analyisis from IDX
+- Historical data analysis from IDX
 - Linear Regression model with 5-day prediction window
 - Interactive web interfce for stock price predictions
 - Support for all IDX-listed tickers
 
-## Prerequsites
+## Prerequisites
 
 - Python 3.8+
 - pandas
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-Place `idx.csv` in the project root directroy. The dataset should contian:
+Place `idx.csv` in the project root directroy. The dataset should contain:
 - Date
 - Ticker
 - Open, High, Low, Close
@@ -38,7 +38,7 @@ Place `idx.csv` in the project root directroy. The dataset should contian:
 
 1. Train the model:
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook train-fix.ipynb
 ```
 
 2. Launch the web application:
@@ -68,23 +68,23 @@ stock-predict-idx/
 - Uses Linear Regresssion algorithm
 - Features: Previous 5 days' closing prices
 - Training/Test spilt: 80/20
-- No shuffle to mantain time series integrity
-- Predections are made for next business day
+- No shuffle to maintain time series integrity
+- Predictions are made for next business day
 
 ## Future Enhancements
 
-- Advanced models (LSTM, Random Foresst)
-- Technical indicators intergration
-- Real-time data updatees
-- Enhanced visualisation
-- Improved eror handling
+- Advanced models (LSTM, Random Forest)
+- Technical indicators integration
+- Real-time data updates
+- Enhanced visualization
+- Improved error handling
 
-## Limitatons
+## Limitations
 
-- Limited to linear relationshps
-- Does not acount for market sentiment
-- Predictions based soley on historical prices
-- Past performence doesn't guarantee future results
+- Limited to linear relationships
+- Does not account for market sentiment
+- Predictions based soleyl on historical prices
+- Past performance doesn't guarantee future results
 
 ## Disclaimer
 
