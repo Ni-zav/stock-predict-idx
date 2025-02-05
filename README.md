@@ -38,7 +38,7 @@ Place `idx.csv` in the project root directroy. The dataset should contain:
 
 1. Train the model:
 ```bash
-jupyter notebook notebook.ipynb
+jupyter notebook train-fix.ipynb
 ```
 
 2. Launch the web application:
